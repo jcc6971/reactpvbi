@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed896fb2.css",
+    "main.js": "/static/js/main.0cd04604.js",
+    "static/media/vignettetablebanc.png": "/static/media/vignettetablebanc.3ab5ae61b91f94f75017.png",
+    "static/media/Allura-Regular.ttf": "/static/media/Allura-Regular.9429cde4d80d03c85860.ttf",
+    "static/media/Lora-VariableFont_wght.ttf": "/static/media/Lora-VariableFont_wght.3a653a05dd1cd5925a30.ttf",
+    "static/media/vignettecreation.png": "/static/media/vignettecreation.922e842d64f250379763.png",
+    "static/media/vignettereceveur.png": "/static/media/vignettereceveur.77beaaaacd65f845b565.png",
+    "static/media/vignettesoubassement.png": "/static/media/vignettesoubassement.aca146e8987c2491fd5f.png",
+    "static/media/vignettebrique.png": "/static/media/vignettebrique.e22a11048b78f26d8755.png",
+    "static/media/vignetteescaliermarche.png": "/static/media/vignetteescaliermarche.7be5f1a7f8f17c8048de.png",
+    "static/media/vignettebaignoire.png": "/static/media/vignettebaignoire.e2258ce7feb3ae45730c.png",
+    "static/media/vignettepdt.png": "/static/media/vignettepdt.ce981d08b0adb95286be.png",
+    "static/media/vignettepierrebatiment1.png": "/static/media/vignettepierrebatiment1.842b8553ade6aad5dedb.png",
+    "static/media/vignetteevier.png": "/static/media/vignetteevier.11cc721deea94fc052bd.png",
+    "static/media/vignettevasque.png": "/static/media/vignettevasque.c271372552ed893027cc.png",
+    "static/media/vignettegravure.png": "/static/media/vignettegravure.c94fc523cc0fc41a4965.png",
+    "static/media/vignettefrise.png": "/static/media/vignettefrise.23f0254fd867931d253c.png",
+    "static/media/vignettemargelle.png": "/static/media/vignettemargelle.734749dab0ac8cd8ea85.png",
+    "static/media/vignettebal.png": "/static/media/vignettebal.d4d1548c0ddcbe7a9545.png",
+    "static/media/vignettelinteau.png": "/static/media/vignettelinteau.007475ccd1b7174131d0.png",
+    "static/media/vignetteentourageporte.png": "/static/media/vignetteentourageporte.bb879b595c4949c8b469.png",
+    "static/media/vignetteappli.png": "/static/media/vignetteappli.45610555bb0e60c3de91.png",
+    "static/media/vignettedallage.png": "/static/media/vignettedallage.2d907e2b8eced8079d92.png",
+    "static/media/vignettedessusmu.png": "/static/media/vignettedessusmu.d5e4f9b031e1fc46f744.png",
+    "index.html": "/index.html",
+    "main.ed896fb2.css.map": "/static/css/main.ed896fb2.css.map",
+    "main.0cd04604.js.map": "/static/js/main.0cd04604.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed896fb2.css",
+    "static/js/main.0cd04604.js"
+  ]
+}
