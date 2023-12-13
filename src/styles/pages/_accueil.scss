@@ -1,0 +1,56 @@
+* {
+  font-family: lora;
+  color: blanchedalmond;
+}
+.accueil {
+  .presentation {
+    position: relative;
+    top: 100px;
+    h3 {
+      margin: 20px;
+      font-size: 1.2rem;
+      text-align: center;
+      color: blanchedalmond;
+    }
+    p {
+      margin: 15px;
+      text-align: center;
+      font-family: "lora";
+      font-size: 1.2rem;
+      color: blanchedalmond;
+      a {
+        display: inline-block;
+        font-family: "lora";
+        color: #e5b061;
+        font-style: italic;
+        transition: 1s ease;
+
+        &:hover {
+          transform: scale(1.1);
+          transition: 1s ease;
+        }
+      }
+    }
+  }
+  .page {
+    animation: logo 3s ease;
+    @-webkit-keyframes logo {
+      0% {
+        transform: scale(0.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+    @keyframes logo {
+      0% {
+        transform: scale(0.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  }
+}

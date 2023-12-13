@@ -1,0 +1,224 @@
+.logo {
+  width: 100%;
+  img {
+    width: 200px;
+  }
+  h1 {
+    display: none;
+  }
+}
+.txtpage {
+  position: relative;
+  top: 100px;
+}
+.txtpage p {
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-family: "lora";
+  color: blanchedalmond;
+  font-size: 1.2rem;
+}
+.note {
+  font-size: 1rem !important;
+}
+.general {
+  position: relative;
+  top: 100px;
+}
+p a {
+  display: inline-block;
+  font-family: "lora";
+  color: #e5b061;
+  font-size: 1.2rem;
+  font-style: italic;
+  transition: 1s ease;
+}
+p a:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+h1,
+h3 {
+  margin-top: 50px;
+  color: blanchedalmond;
+  text-align: center;
+  font-family: "lora";
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 1.7rem;
+}
+
+.menu {
+  position: relative;
+  /* top: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.exterieur,
+.sdb,
+.cuisine,
+.mobilier {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border: #f8e891 2px solid;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.1rem;
+  font-family: "lora";
+  background: none;
+  animation: textanim 4s infinite alternate;
+  cursor: pointer;
+  padding: 10px 35px 10px 35px;
+  /* margin: 0 auto; */
+  padding: 0;
+}
+#appui {
+  background: url(../../../public/images/pierres/vignetteappli.png) center/
+    cover;
+}
+#bal {
+  background: url(../../../public/images/pierres/vignettebal.png) center/ cover;
+}
+#chapeau {
+  background: url(../../../public/images/pierres/vignettechapeau.png) center;
+}
+#dallage {
+  background: url(../../../public/images/pierres/vignettedallage.png)
+    center/cover;
+}
+#dessusmu {
+  background: url(../../../public/images/pierres/vignettedessusmu.png)
+    center/cover;
+}
+#entourageporte {
+  background: url(../../../public/images/pierres/vignetteentourageporte.png)
+    center/cover;
+}
+#escaliermarche {
+  background: url(../../../public/images/pierres/vignetteescaliermarche.png)
+    center/cover;
+}
+#frise {
+  background: url(../../../public/images/pierres/vignettefrise.png) center/cover;
+}
+#linteau {
+  background: url(../../../public/images/pierres/vignettelinteau.png) center/
+    cover;
+}
+#margelle {
+  background: url(../../../public/images/pierres/vignettemargelle.png)
+    center/cover;
+}
+#pierrebatiment {
+  background: url(../../../public/images/pierres/vignettepierrebatiment1.png)
+    center/cover;
+}
+#soubassement {
+  background: url(../../../public/images/pierres/vignettesoubassement.png)
+    center/cover;
+}
+#tablebanc {
+  background: url(../../../public/images/pierres/vignettetablebanc.png)
+    center/cover;
+}
+#vasque {
+  background: url(../../../public/images/pierres/vignettevasque.png)
+    center/cover;
+}
+#baignoire {
+  background: url(../../../public/images/pierres/vignettebaignoire.png)
+    center/cover;
+}
+#receveur {
+  background: url(../../../public/images/pierres/vignettereceveur.png)
+    center/cover;
+}
+#evier {
+  background: url(../../../public/images/pierres/vignetteevier.png) center/cover;
+}
+#pdt {
+  background: url(../../../public/images/pierres/vignettepdt.png) center/cover;
+}
+#gravure {
+  background: url(../../../public/images/pierres/vignettegravure.png)
+    center/cover;
+}
+#creation {
+  background: url(../../../public/images/pierres/vignettecreation.png)
+    center/cover;
+}
+#brique {
+  background: url(../../../public/images/pierres/vignettebrique.png)
+    center/cover;
+  position: relative;
+}
+#brique a {
+  position: absolute;
+  right: -100px;
+  font-family: lora;
+  font-size: 0.9rem;
+  color: #e5b061;
+}
+
+.imgg {
+  position: fixed;
+  transform: translateX(-50%);
+  top: 100px;
+  left: 50%;
+  z-index: 10;
+  width: 500px;
+  border: blanchedalmond 5px solid;
+  border-radius: 10px;
+  @media screen and (max-width: 700px) {
+    top: 150px;
+    width: 250px;
+  }
+}
+.croix {
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  @media screen and (max-width: 700px) {
+    font-size: 2.5rem;
+    left: 5px;
+  }
+  p {
+    cursor: pointer;
+    z-index: 15;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@keyframes textanim {
+  from {
+    color: blanchedalmond;
+  }
+  to {
+    color: black;
+  }
+}
+@media screen and (max-width: 480px) {
+  .general {
+    top: 160px;
+  }
+}

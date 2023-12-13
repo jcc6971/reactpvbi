@@ -1,0 +1,293 @@
+.txtpage {
+  position: relative;
+  top: 250px;
+}
+.txtpage p {
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-family: "lora";
+  color: blanchedalmond;
+  font-size: 1.2rem;
+}
+.note {
+  font-size: 1rem !important;
+}
+.general {
+  position: relative;
+  top: 200px;
+}
+p a {
+  display: inline-block;
+  font-family: "lora";
+  color: #e5b061;
+  font-size: 1.2rem;
+  font-style: italic;
+  transition: 1s ease;
+}
+p a:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+h1,
+h3 {
+  margin-top: 50px;
+  color: blanchedalmond;
+  text-align: center;
+  font-family: "lora";
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 1.7rem;
+}
+
+.menu {
+  position: relative;
+  /* top: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.exterieur,
+.sdb,
+.cuisine,
+.mobilier {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border: #f8e891 2px solid;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.1rem;
+  font-family: "lora";
+  background: none;
+  animation: textanim 4s infinite alternate;
+  cursor: pointer;
+  padding: 10px 35px 10px 35px;
+  /* margin: 0 auto; */
+  padding: 0;
+}
+#appui {
+  background: url(../../../public/images/pierres/vignetteappli.png) center/
+    cover;
+}
+#bal {
+  background: url(../../../public/images/pierres/vignettebal.png) center/ cover;
+}
+#chapeau {
+  background: url(../../../public/images/pierres/vignettechapeau.png) center;
+}
+#dallage {
+  background: url(../../../public/images/pierres/vignettedallage.png)
+    center/cover;
+}
+#dessusmu {
+  background: url(../../../public/images/pierres/vignettedessusmu.png)
+    center/cover;
+}
+#entourageporte {
+  background: url(../../../public/images/pierres/vignetteentourageporte.png)
+    center/cover;
+}
+#escaliermarche {
+  background: url(../../../public/images/pierres/vignetteescaliermarche.png)
+    center/cover;
+}
+#frise {
+  background: url(../../../public/images/pierres/vignettefrise.png) center/cover;
+}
+#linteau {
+  background: url(../../../public/images/pierres/vignettelinteau.png) center/
+    cover;
+}
+#margelle {
+  background: url(../../../public/images/pierres/vignettemargelle.png)
+    center/cover;
+}
+#pierrebatiment {
+  background: url(../../../public/images/pierres/vignettepierrebatiment1.png)
+    center/cover;
+}
+#soubassement {
+  background: url(../../../public/images/pierres/vignettesoubassement.png)
+    center/cover;
+}
+#tablebanc {
+  background: url(../../../public/images/pierres/vignettetablebanc.png)
+    center/cover;
+}
+#vasque {
+  background: url(../../../public/images/pierres/vignettevasque.png)
+    center/cover;
+}
+#baignoire {
+  background: url(../../../public/images/pierres/vignettebaignoire.png)
+    center/cover;
+}
+#receveur {
+  background: url(../../../public/images/pierres/vignettereceveur.png)
+    center/cover;
+}
+#evier {
+  background: url(../../../public/images/pierres/vignetteevier.png) center/cover;
+}
+#pdt {
+  background: url(../../../public/images/pierres/vignettepdt.png) center/cover;
+}
+#gravure {
+  background: url(../../../public/images/pierres/vignettegravure.png)
+    center/cover;
+}
+#creation {
+  background: url(../../../public/images/pierres/vignettecreation.png)
+    center/cover;
+}
+#brique {
+  background: url(../../../public/images/pierres/vignettebrique.png)
+    center/cover;
+  position: relative;
+}
+#brique a {
+  position: absolute;
+  right: -100px;
+  font-family: lora;
+  font-size: 0.9rem;
+  color: #e5b061;
+}
+#croix {
+  visibility: hidden;
+  color: blanchedalmond;
+  position: absolute;
+  z-index: 100;
+  left: 15px;
+  top: 30px;
+  font-size: 2rem;
+}
+
+/** img-carousel **/
+#imgages-carousel {
+  z-index: 10;
+  transform: translateX(-50%) translateY(-50%);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  display: none;
+  border: blanchedalmond 5px solid;
+  border-radius: 20px;
+  background-color: black;
+  align-items: center;
+  justify-items: center;
+  padding: 40px 0px;
+  height: 65vh;
+  width: 600px;
+}
+.img-carousel-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.img-carousel {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 5px;
+  height: 100%;
+  width: 100%;
+}
+.img-carousel div {
+  flex: none;
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img-carousel div img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  top: 50%;
+  left: 50%;
+}
+.img-carousel div p {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.img-carousel-container button {
+  position: absolute;
+  top: calc(50% - 15px);
+  transform: translateY(-50%);
+  border: none;
+  background-color: rgba(255, 193, 7, 0.7);
+  color: #000;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  outline: none;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+#prev {
+  left: 10px;
+}
+#next {
+  right: 10px;
+}
+.img-carousel-container:hover button {
+  opacity: 1;
+}
+.img-carousel-container button:hover {
+  background-color: #ffc107;
+}
+
+/** custom scrollbar **/
+.img-carousel::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.img-carousel::-webkit-scrollbar-thumb {
+  background: #ffc107;
+  border-radius: 10px;
+  visibility: hidden;
+}
+.img-carousel::-webkit-scrollbar-track {
+  background: transparent;
+}
+.img-carousel-container:hover .img-carousel::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+@keyframes textanim {
+  from {
+    color: blanchedalmond;
+  }
+  to {
+    color: black;
+  }
+}
+@media screen and (max-width: 480px) {
+  .general {
+    top: 160px;
+  }
+}
