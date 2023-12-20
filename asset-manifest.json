@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed896fb2.css",
-    "main.js": "/static/js/main.0cd04604.js",
+    "main.css": "/static/css/main.4677bc44.css",
+    "main.js": "/static/js/main.9a5ad249.js",
     "static/media/vignettetablebanc.png": "/static/media/vignettetablebanc.3ab5ae61b91f94f75017.png",
     "static/media/Allura-Regular.ttf": "/static/media/Allura-Regular.9429cde4d80d03c85860.ttf",
     "static/media/Lora-VariableFont_wght.ttf": "/static/media/Lora-VariableFont_wght.3a653a05dd1cd5925a30.ttf",
@@ -25,11 +25,11 @@
     "static/media/vignettedallage.png": "/static/media/vignettedallage.2d907e2b8eced8079d92.png",
     "static/media/vignettedessusmu.png": "/static/media/vignettedessusmu.d5e4f9b031e1fc46f744.png",
     "index.html": "/index.html",
-    "main.ed896fb2.css.map": "/static/css/main.ed896fb2.css.map",
-    "main.0cd04604.js.map": "/static/js/main.0cd04604.js.map"
+    "main.4677bc44.css.map": "/static/css/main.4677bc44.css.map",
+    "main.9a5ad249.js.map": "/static/js/main.9a5ad249.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed896fb2.css",
-    "static/js/main.0cd04604.js"
+    "static/css/main.4677bc44.css",
+    "static/js/main.9a5ad249.js"
   ]
 }
